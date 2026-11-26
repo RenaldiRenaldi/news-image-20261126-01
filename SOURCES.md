@@ -18,3 +18,16 @@
 - Mumbai 26/11 18th anniversary, 174 dead in 2008, 26 Nov 2026: Reuters diary via Devdiscourse.
 - Bitcoin about $60,300, 25 Nov 2026: Finnhub, CoinGecko, Motley Fool.
 - Colombia peace accord decade, Venezuela $237.5bn debt, Petrobras $122bn plan, BepiColombo Mercury arrival, DART crater, Russia war losses, Xi/Shanghai probe, Congo Ebola evacuation, Houthi Ras Tanura claim, EU sanctions, NATO space defence, ECOWAS roadmap, Euro Summit: 25–26 Nov 2026 research ledger sources.
+- Russia's own figures, nearly 500,000 people lost in the Ukraine war, 25 Nov 2026: Libre News/Jabulani Radio reporting listed in research ledger §14.
+- Xi Jinping graft probe of Shanghai party chief Chen Jining, 25 Nov 2026: Libre News/Jabulani Radio reporting listed in research ledger §14.
+- Ebola response workers evacuated from eastern Congo amid fighting, 25 Nov 2026: research ledger §14 verified thread.
+- Houthi claim of attack on Saudi Arabia's largest refinery at Ras Tanura, 25 Nov 2026: research ledger §14 verified thread.
+- EU proposed 22nd sanctions package against Russia, 25 Nov 2026: research ledger §14 verified thread.
+- NATO space defence vow amid reports of a Russian nuclear satellite, 25 Nov 2026: research ledger §14 verified thread.
+- Colombia police freed 20 supermarket hostages after 17 hours, 25 Nov 2026: research ledger §14 verified thread.
+- ECOWAS roadmap for a regional security force by close of 2027, 25 Nov 2026: research ledger §14 verified thread.
+- Kilmar Abrego Garcia leaving the United States for Spain, 25 Nov 2026: CBS/BBC reporting cited in research ledger §14.
+- Nigeria seized more than $200 million of meth and arrested five Mexicans, 25 Nov 2026: research ledger §14 verified thread.
+- US Army controlled detonation of about 10,000 lbs deteriorating lead azide in Iowa, 23 Nov 2026 announcement: research ledger §14 verified thread.
+- Melania Trump helped reunite nine more Ukrainian and Russian children with families, 25 Nov 2026: research ledger §14 verified thread.
+- Two men charged in Sandringham Estate break-in, 25 Nov 2026: research ledger §14 verified thread.
