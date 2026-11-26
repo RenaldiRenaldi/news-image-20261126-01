@@ -20,15 +20,15 @@ def wrap(x,y,s,width,size,color=WHITE,b=False,leading=3):
     return yy
 
 # masthead
-d.rectangle((0,0,W,180),fill=INK); d.rectangle((0,174,W,180),fill=GOLD)
+d.rectangle((0,0,W,150),fill=INK); d.rectangle((0,144,W,150),fill=GOLD)
 txt(34,24,'THURSDAY 26 NOVEMBER 2026',20,GOLD,True)
 txt(34,52,'BLACKOUT ATLAS',48,WHITE,True)
 txt(36,111,'Giza tanker fire kills 31  |  Nasdaq plunges 4 percent  |  first Pakistani in orbit',17,WHITE,True)
-txt(36,139,'31 STORIES  ·  9 REGIONS  ·  REPORTING WINDOW: 00:00–23:59 UTC',13,MUTED,True)
+txt(36,131,'31 STORIES  ·  9 REGIONS  ·  REPORTING WINDOW: 00:00–23:59 UTC',13,MUTED,True)
 # fire flare
-d.ellipse((830,18,1010,180),fill=(117,48,28)); d.ellipse((855,38,982,170),fill=ORANGE); d.ellipse((886,58,956,151),fill=GOLD)
+d.ellipse((830,10,1010,150),fill=(117,48,28)); d.ellipse((855,30,982,140),fill=ORANGE); d.ellipse((886,50,956,130),fill=GOLD)
 for i in range(7):
-    a=i*0.55; x=915+int(math.cos(a)*78); y=90-int(math.sin(a)*65)
+    a=i*0.55; x=915+int(math.cos(a)*78); y=80-int(math.sin(a)*55)
     d.line((915,110,x,y),fill=GOLD,width=3)
 
 # lead panel
@@ -42,19 +42,19 @@ txt(710,212,'31',48,ORANGE,True); txt(790,230,'dead',16,WHITE,True)
 txt(710,263,'21 injured · Wed 25 Nov',12,MUTED); txt(710,278,'Reuters / AP / CNN',11,MUTED)
 
 # co-leads
-d.rounded_rectangle((28,318,996,416),radius=8,fill=(224,225,207))
+d.rounded_rectangle((28,308,996,440),radius=8,fill=(224,225,207))
 txt(48,329,'CO-LEADS',12,(157,89,27),True)
 cols=[('−4%','AI ROUTE HITS NASDAQ','−4.15% intraday; Nvidia −8.7%. Section 301 tariffs proposed for 14–16 partners.'),('SHENZHOU-24','PAKISTANI IN ORBIT','Muhammad Zeeshan Ali, 40: first Pakistani and first foreign national on Tiangong.'),('NETANYAHU','JUDGES SEEK CASE RESET','Jerusalem judges recommend dropping Case 4000; recommendation, not a ruling.')]
 for i,(big,head,body) in enumerate(cols):
     x=48+i*315
-    if i: d.line((x-18,355,x-18,402),fill=(166,170,154),width=2)
-    txt(x,354,big,22,(26,74,91) if i!=0 else RED,True)
-    txt(x,381,head,12,DARK,True); wrap(x,399,body,285,10,(46,57,62),False)
+    if i: d.line((x-18,345,x-18,426),fill=(166,170,154),width=2)
+    txt(x,344,big,22,(26,74,91) if i!=0 else RED,True)
+    txt(x,371,head,12,DARK,True); wrap(x,389,body,285,10,(46,57,62),False)
 
 # atlas
-d.rounded_rectangle((28,428,996,590),radius=8,fill=OCEAN,outline=(67,112,124),width=2)
-txt(48,438,'ATLAS PLATE  ·  14 VERIFIED DOTS  ·  LAT/LON CHECKED AGAINST SLATE',11,GOLD,True)
-mx,my,mw,mh=46,458,930,122
+d.rounded_rectangle((28,452,996,614),radius=8,fill=OCEAN,outline=(67,112,124),width=2)
+txt(48,462,'ATLAS PLATE  ·  14 VERIFIED DOTS  ·  LAT/LON CHECKED AGAINST SLATE',11,GOLD,True)
+mx,my,mw,mh=46,482,930,122
 # graticule
 for lon in range(-180,181,30):
     x=mx+(lon+180)/360*mw; d.line((x,my,x,my+mh),fill=(63,101,113),width=1)
@@ -76,15 +76,15 @@ for lab,lon,lat,dx,dy in labels:
     x,y=proj(lon,lat); txt(x+dx,y+dy,lab,9,WHITE,True)
 
 # numbers strip
-d.rectangle((28,598,996,632),fill=(190,63,40)); txt(48,607,'A DAY IN NUMBERS',13,WHITE,True)
+d.rectangle((28,622,996,656),fill=(190,63,40)); txt(48,631,'A DAY IN NUMBERS',13,WHITE,True)
 nums=[('31','Giza killed'),('−4%','Nasdaq intraday'),('174','Mumbai remembered'),('100th','Macy’s parade')]
 for i,(n,l) in enumerate(nums):
-    x=260+i*180; txt(x,603,n,18,WHITE,True); txt(x,622,l,9,WHITE)
+    x=260+i*180; txt(x,627,n,18,WHITE,True); txt(x,646,l,9,WHITE)
 
 # cards
 cards=[('CIKANDE','26 dead in candy factory','Tue update · Indonesia',GOLD),('RUSSIA OIL','20+ year refining low','18+ refineries hit',RED),('HORMUZ','Mine claims in strait','Iran says ships struck',TEAL),('N. KOREA','Swiss diplomat expelled','Sanctions row',GOLD),('NIGERIA','30+ killed in Niger State','Attacks reported',RED),('BANGLADESH','100+ bank branches burned','Grameen Bank unrest',TEAL),('BTC','~$60,300','Fragile rebound',GOLD),('COLOMBIA','10 years after peace deal','Unfinished commitments',TEAL),('VENEZUELA','$237.5bn debt revealed','Economic reset',RED),('PETROBRAS','$122bn investment plan','Brazil energy',GOLD),('BEPICOLOMBO','Mercury reached','8-year journey',TEAL),('DART','Stadium-sized crater','Asteroid defence test',RED)]
 for j,(head,body,sub,col) in enumerate(cards):
-    row=j//4; coln=j%4; x=28+coln*242; y=640+row*48
+    row=j//4; coln=j%4; x=28+coln*242; y=664+row*48
     d.rounded_rectangle((x,y,x+226,y+42),radius=5,fill=PANEL)
     d.rectangle((x,y,x+7,y+42),fill=col)
     # distinct mini-mark
@@ -94,8 +94,8 @@ for j,(head,body,sub,col) in enumerate(cards):
     txt(x+43,y+5,head,9,DARK,True); txt(x+43,y+19,body,8,DARK,True); txt(x+43,y+32,sub,7,(73,82,79))
 
 # 13 verified briefs: these are separate threads and make the 31-story count explicit.
-d.rounded_rectangle((28,790,996,1000),radius=6,fill=(25,47,65),outline=(70,101,112),width=2)
-txt(46,798,'13 MORE STORIES  ·  VERIFIED WED 25 NOV THREADS',12,GOLD,True)
+d.rounded_rectangle((28,810,996,1000),radius=6,fill=(25,47,65),outline=(70,101,112),width=2)
+txt(46,818,'13 MORE STORIES  ·  VERIFIED WED 25 NOV THREADS',12,GOLD,True)
 briefs=[
  ('RUSSIA','Own figures: nearly 500,000 lost in Ukraine war.','Moscow'),
  ('CHINA','Xi graft probe targets Shanghai chief Chen Jining.','Beijing'),
@@ -111,7 +111,7 @@ briefs=[
  ('MELANIA','Nine more Ukrainian and Russian children reunited.','Washington DC'),
  ('SANDRINGHAM','Two men charged in estate break-in.','Sandringham')]
 for i,(head,body,place) in enumerate(briefs):
-    coln=i//7; row=i%7; x=46+coln*470; y=823+row*24
+    coln=i//7; row=i%7; x=46+coln*470; y=843+row*20
     txt(x,y,head,9,GOLD,True); txt(x+78,y,body,8,WHITE); txt(x+78,y+11,place,7,MUTED)
 txt(28,1008,'31 stories · 9 regions · Wed follow-ups labelled · Thursday scheduled items checked at build time',9,MUTED)
 img.save('/home/hatch/workspace/makefun/news-image-20261126-01/entry.png',optimize=True)
