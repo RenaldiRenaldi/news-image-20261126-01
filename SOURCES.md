@@ -1,5 +1,15 @@
 # Sources
 
+Edition: Thursday 26 November 2026. Final image count: 36 distinct stories across 9 regions.
+
+- Lead, Macy's 100th Thanksgiving Day Parade postponed from Thu 26 Nov to Sat 28 Nov at 8:30 am ET, first postponement in its 100-year history; nor'easter, 60–65 mph gusts, heavy rain and coastal flooding; New York state of emergency; balloons inflated then deflated; NBC 2025 re-air: live wire reporting checked at build time. Map: New York 40.71N 74.01W.
+- Co-lead, Mumbai 26/11 anniversary: 18 years since the 2008 attacks, 174 dead; India Constitution Day, 77th anniversary of adoption in 1949, Thu 26 Nov: Reuters diary and Indian government calendar. Map: Mumbai 19.08N 72.88E.
+- Co-lead, Gukesh v Sindarov Game 3, World Championship: Thu 26 Nov, 15:00 CET at Fondation Martin Bodmer near Geneva; match 1–1 after two draws; Sindarov White: live event listing checked at build time. Map: Geneva 46.20N 6.14E.
+- Co-lead, EU leaders meet Thu 26–Fri 27 Nov in Brussels: Euro Summit and Special European Council agenda is the long-term budget and Ukraine financing for 2027; presented as a meeting, not an unverified outcome. Map: Brussels 50.85N 4.35E.
+- New story, NFL Thanksgiving triple-header Thu 26 Nov: Detroit and Dallas games plus Kansas City at Buffalo in prime time on NBC; NFL schedule. Thread dot: Detroit 42.33N 83.05W.
+- New story, India Cabinet approves a 4,288-crore-rupee second container terminal at Kamarajar Port, Tamil Nadu, Wed 25 Nov: Cabinet release and Indian business reporting.
+- New story, Brazil Wolbachia mosquitoes cut mosquito-borne viral infections by 68 percent: Brazilian public-health study/reporting, checked at build time.
+
 - Giza fuel tanker fire, 31 killed and 21 injured, 27 vehicles charred, preliminary toll, 25 Nov 2026: Reuters (via SRN News), AP, CNN.
 - Map coordinate used: Al-Warraq, Giza 30.06N 31.21E.
 - Nasdaq intraday -4.15%, close -0.6%, Nvidia -8.7%, Section 301 proposal for 14–16 partners, 25 Nov 2026: Reuters (Kitco), Motley Fool, Hindu BusinessLine.
